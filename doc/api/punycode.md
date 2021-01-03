@@ -12,7 +12,8 @@ deprecated: v7.0.0
 **The version of the punycode module bundled in Node.js is being deprecated**.
 In a future major version of Node.js this module will be removed. Users
 currently depending on the `punycode` module should switch to using the
-userland-provided [Punycode.js][] module instead.
+userland-provided [Punycode.js][] module instead. For punycode based URL
+encoding, see [url.domainToASCII][].
 
 The `punycode` module is a bundled version of the [Punycode.js][] module. It
 can be accessed using:
@@ -150,3 +151,4 @@ Returns a string identifying the current [Punycode.js][] version number.
 
 [Punycode]: https://tools.ietf.org/html/rfc3492
 [Punycode.js]: https://github.com/bestiejs/punycode.js
+[url.domainToASCII]: url.md#urldomaintoasciidomain
